@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf02743b6a2b46b9aec780cccb679698",
+    "_text_": "SIGN UP",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s9ab6a7616de4c33b6a143fa0338b130",
+    "id": "btnCancelApprove",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "g936046deef744bba3822b4ce0bae057",
+    "name": "kony.ui.Button",
+    "parent": "flxApproveBtns",
+    "pf": "frmAuthentication",
+    "responsiveData": {
+        "b1": {
+            "focusSkin": "s790b2294d7f4b889f05a6d6671b2377",
+            "skin": "sf02743b6a2b46b9aec780cccb679698",
+            "text": "Cancel"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

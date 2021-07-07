@@ -1,0 +1,88 @@
+{
+    "classname": "userManagement",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a595552879cd41fda6823537914b2b9d",
+                    "paramList": [],
+                    "propertyKey": "loadUserManagement",
+                    "pw": {
+                        "displayName": "loadUserManagement",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i28607ea75bf4f6f9432d853f94d9947",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ed65a8b4f8504ee2af5da78f86e1761f",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "showLoading",
+                    "pw": {
+                        "displayName": "showLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i28607ea75bf4f6f9432d853f94d9947",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d00d95af6bea40dfbb3bb64ba84a2782",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "dismissLoading",
+                    "pw": {
+                        "displayName": "dismissLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i28607ea75bf4f6f9432d853f94d9947",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ce26224cfd414bcfb09a0a64486e938a",
+                    "originalPropertyKey": "Username",
+                    "propertyIndex": 2,
+                    "propertyKey": "Username",
+                    "pw": {
+                        "displayName": "Username",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i28607ea75bf4f6f9432d853f94d9947",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hid",
+    "version": "1.0.0"
+}

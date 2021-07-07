@@ -1,0 +1,139 @@
+{
+    "classname": "onboarding",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f435aba2d80d41e78b8e428f65bca144",
+                    "paramList": [],
+                    "propertyKey": "resetUI",
+                    "pw": {
+                        "displayName": "resetUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c19bedaae69c4b1e9411ea3bc6e0fce5",
+                    "paramList": [],
+                    "propertyKey": "getUserId",
+                    "pw": {
+                        "displayName": "getUserId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fe0dc205f6fb4b5c8d215b106dd90027",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "showLoading",
+                    "pw": {
+                        "displayName": "showLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c449397e5d694c13a0fc1406e38c3da9",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "dismissLoading",
+                    "pw": {
+                        "displayName": "dismissLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ceffb1bb509f4c6e843ca39b92ea9a94",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "changeContext",
+                    "pw": {
+                        "displayName": "changeContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d9db1df6b49b41c5ba0015d83781af96",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "switchLogin",
+                    "pw": {
+                        "displayName": "switchLogin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i9354a4c5701420284f969b08d5c3214",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "passwordPolicy",
+                    "pw": {
+                        "displayName": "passwordPolicy",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "APPROVE",
+                    "group": "General",
+                    "kuid": "i1df4f4fff114ea48e6dfcfbf8bedf02",
+                    "originalPropertyKey": "MFA",
+                    "propertyIndex": 1,
+                    "propertyKey": "MFA",
+                    "pw": {
+                        "displayName": "MFA",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d91d5cd8a88d41bfba21c94628626572",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hid",
+    "version": "1.0.0"
+}

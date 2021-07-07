@@ -1,0 +1,104 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizTabPane",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_activeTabsBackUp": [
+        1
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "53%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_top_": {
+        "type": "string",
+        "value": "47%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "activeskin": "s922ea099f654ee09362bed0c64afae5",
+    "activetab": 1,
+    "activetabs": [
+        0
+    ],
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "tabChangePwd",
+        "tabRegisterDevice"
+    ],
+    "collapsedimage": "",
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "uwu81573b1647e4706b3d9702f3427b99b",
+        "platform": "desktopweb",
+        "tabpaneID": "",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "expandedimage": "",
+    "id": "tabSelfService",
+    "imageposition": "right",
+    "inactiveskin": "sdcb1ad44ead4ef4be2e1fc33a9e9307",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fde6b39e7ede4881a5e300a7bb0d868d",
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.TabPane",
+    "paddinginpixel": false,
+    "parent": "flxDevices",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "tabnamealignment": "left",
+    "toggletabs": false,
+    "viewconfig": {
+        "collapsibleViewConfig": {
+            "collapsedImage": "",
+            "expandedImage": "",
+            "imagePosition": "right",
+            "tabNameAlignment": "left",
+            "toggleTabs": false
+        },
+        "pageViewConfig": {
+            "needPageIndicator": true,
+            "pageOffDotImage": "",
+            "pageOnDotImage": ""
+        },
+        "panoramaViewConfig": {
+            "panoramaImage": "",
+            "panoramaTitle": "",
+            "panoramaTitleImage": ""
+        },
+        "tabViewConfig": {
+            "headerPosition": "top",
+            "image1": "definitePath:images/canvas/widgets/tabpane/arrow-left.svg",
+            "image2": "definitePath:images/canvas/widgets/tabpane/arrow-right.svg"
+        }
+    },
+    "viewtype": "tabview",
+    "wType": "TabPane"
+}

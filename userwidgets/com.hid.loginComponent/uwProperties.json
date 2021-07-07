@@ -1,0 +1,167 @@
+{
+    "classname": "loginComponent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ca09fe52732a43f58913ff9301beebd0",
+                    "paramList": [],
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "dc893ebf948a4900a3904d50ebcde4c9",
+                    "paramList": [],
+                    "propertyKey": "resetUI",
+                    "pw": {
+                        "displayName": "resetUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f603fb311f1a4a06985fa331dbf0e330",
+                    "paramList": [],
+                    "propertyKey": "getUserName",
+                    "pw": {
+                        "displayName": "getUserName",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d4f4e901132540548fe6cd8ec28cae6e",
+                    "paramList": [],
+                    "propertyKey": "logoutOnClick",
+                    "pw": {
+                        "displayName": "logoutOnClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f92094f3464448029019ae13878cb575",
+                    "paramList": [
+                        {
+                            "name": "userprofileJSON"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSuccessCallback",
+                    "pw": {
+                        "displayName": "onSuccessCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e00b7dbd523b4b6ea08eb628c249c64a",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onFailureCallback",
+                    "pw": {
+                        "displayName": "onFailureCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a6f5a97919ce436197b91d7298fc9018",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "dismissLoading",
+                    "pw": {
+                        "displayName": "dismissLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b1fb270b3d704bfdb82b270ddc65645d",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "showLoading",
+                    "pw": {
+                        "displayName": "showLoading",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "gd42e55eebff433aa68ae2c84e3abf3c",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "changeContext",
+                    "pw": {
+                        "displayName": "changeContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "APPROVE",
+                    "group": "General",
+                    "kuid": "cd8528fd92b54c9f9257a9388d9320a2",
+                    "originalPropertyKey": "MFA",
+                    "propertyIndex": 2,
+                    "propertyKey": "MFA",
+                    "pw": {
+                        "displayName": "MFA",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i6dc887ee05944d699e88d11a7bb00ac",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hid",
+    "version": "1.0.0"
+}

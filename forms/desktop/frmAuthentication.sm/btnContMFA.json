@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s77ccbb849b14dc8b001281ad9f2084b",
+    "_text_": "LOGIN",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "48%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sead9d5952c24112a3bd1ef90ef25f15",
+    "id": "btnContMFA",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bf2afbb0e8e7494ba552c6fcb85aaf4f",
+    "name": "kony.ui.Button",
+    "parent": "buttonsMFA",
+    "pf": "frmAuthentication",
+    "responsiveData": {
+        "b1": {
+            "focusSkin": "sc006f3cf9b148feb190da2c8fcb4192",
+            "skin": "s77ccbb849b14dc8b001281ad9f2084b",
+            "text": "Continue"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

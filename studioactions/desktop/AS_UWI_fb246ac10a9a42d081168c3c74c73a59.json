@@ -1,0 +1,20 @@
+{
+    "AS_UWI_fb246ac10a9a42d081168c3c74c73a59": {
+        "id": "AS_UWI_fb246ac10a9a42d081168c3c74c73a59",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmOnBoarding",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j39ef66f15714bf2ae2872f076e99dda"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_be8eb6d1f3bd47d5b973e2fc5a2d6540",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Login Failed\");",
+            "parentId": null
+        }]
+    }
+}

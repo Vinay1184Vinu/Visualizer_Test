@@ -1,0 +1,27 @@
+{
+    "AS_Button_ff8890cdccb844069013b08a490a020a": {
+        "id": "AS_Button_ff8890cdccb844069013b08a490a020a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "KUID": "ea7989097547498ca32ae82d7fd4d9da",
+            "name": "CopytmpDevicesSegment1",
+            "platform": "",
+            "type": "templates"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__acaea9c991b24016a2d98ad1b5cdfc45",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"changeDeviceStatusOnClick\", {row : eventobject.rowContext.rowIndex,\n                                                   section : eventobject.rowContext.sectionIndex});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

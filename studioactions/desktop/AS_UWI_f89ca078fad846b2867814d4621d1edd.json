@@ -1,0 +1,28 @@
+{
+    "AS_UWI_f89ca078fad846b2867814d4621d1edd": {
+        "id": "AS_UWI_f89ca078fad846b2867814d4621d1edd",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmOnBoarding",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j39ef66f15714bf2ae2872f076e99dda"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ff5b0d77a34b426bbcdb02cd8827f0ea",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "changeContext",
+            "display": "changeContext",
+            "inputparams": [{
+                "name": "context",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

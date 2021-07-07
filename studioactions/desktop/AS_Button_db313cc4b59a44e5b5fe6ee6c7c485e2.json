@@ -1,0 +1,32 @@
+{
+    "AS_Button_db313cc4b59a44e5b5fe6ee6c7c485e2": {
+        "id": "AS_Button_db313cc4b59a44e5b5fe6ee6c7c485e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOnSuccesAuthenticate",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a018ad20d2e24930a41888311e99d72e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f6d2b31015af4a339e5744b61a42d7df",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOnBoarding",
+            "friendlyName": "frmOnBoarding",
+            "formKUID": "j39ef66f15714bf2ae2872f076e99dda",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnLogout\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

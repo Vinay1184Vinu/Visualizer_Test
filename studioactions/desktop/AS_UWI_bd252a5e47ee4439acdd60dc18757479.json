@@ -1,0 +1,25 @@
+{
+    "AS_UWI_bd252a5e47ee4439acdd60dc18757479": {
+        "id": "AS_UWI_bd252a5e47ee4439acdd60dc18757479",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmOnBoarding",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j39ef66f15714bf2ae2872f076e99dda"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e88026a901c74140aa654ac7ac2b56f9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showLoading",
+            "display": "showLoading",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

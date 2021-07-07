@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb23130793dc411c8e97225f497be20c",
+    "_text_": "Settings",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {},
+    "disabledSkins": {
+        "blockedUISkin": "sd7d8e759b4846568bebf0ceba2601e7"
+    },
+    "displaytext": true,
+    "focusskin": "sfbd9058455d425084b7ccf95847fb8c",
+    "id": "btnNavSettings",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a073c4aae1ab4667bccebff680eaf2dc",
+    "name": "kony.ui.Button",
+    "parent": "flxMenu",
+    "pf": "frmPostLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

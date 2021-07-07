@@ -1,0 +1,18 @@
+{
+    "AS_Form_fe7fc785fe514a8886657185188c1af0": {
+        "id": "AS_Form_fe7fc785fe514a8886657185188c1af0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "j39ef66f15714bf2ae2872f076e99dda",
+            "name": "frmOnBoarding",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

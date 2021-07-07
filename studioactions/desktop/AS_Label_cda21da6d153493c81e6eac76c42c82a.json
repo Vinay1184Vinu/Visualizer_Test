@@ -1,0 +1,44 @@
+{
+    "AS_Label_cda21da6d153493c81e6eac76c42c82a": {
+        "id": "AS_Label_cda21da6d153493c81e6eac76c42c82a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPostLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b295046e510941938ac108e424807d78"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d715a316e046466db90c3b65d460c6eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.cancelTimer();\nthis.view.loginComponent.logoutOnClick();",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___a0a7377ddb0e4514b0287558fe44c4fb",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOnBoarding",
+            "friendlyName": "frmOnBoarding",
+            "formKUID": "j39ef66f15714bf2ae2872f076e99dda",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onTouchStart\",\n        \"widgetId\": \"PowerOff\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

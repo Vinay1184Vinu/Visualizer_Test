@@ -1,0 +1,40 @@
+{
+    "AS_Image_ca8e1bd2cdd043a1b166b4ec3f068890": {
+        "id": "AS_Image_ca8e1bd2cdd043a1b166b4ec3f068890",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "KUID": "c17e280310ec46fea810c05c75f134d8",
+            "name": "tmpDevicesSegment",
+            "platform": "",
+            "type": "templates"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b7ce180c0f694078a6ff44fc97470dc7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onEditOkTouchEnd",
+            "display": "onEditOkTouchEnd",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
