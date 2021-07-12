@@ -7,7 +7,7 @@
 <project name="Kony desktop web project" default="package" basedir=".">
     <import file="../wap/common-build.xml" optional="true"/>
     <target name="init" description="init">
-        <taskdef resource="ant-contrib-0.6/net/sf/antcontrib/antcontrib.properties">
+        <taskdef resource="net/sf/antcontrib/antcontrib.properties">
             <classpath>
                 <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar" />
             </classpath>
